@@ -1,5 +1,3 @@
-# agent-node-01-build
-
 pipeline {
     agent { label 'agent-node-01-build' }
     stages {
