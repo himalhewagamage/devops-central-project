@@ -1,0 +1,22 @@
+# agent-node-01-build
+
+pipeline {
+    agent { label 'agent-node-01-build' }
+    stages {
+        stage('Build') { 
+            steps {
+                sh 'echo Hello-World' 
+            }
+        }
+        stage('Test') { 
+            steps {
+                
+            }
+        }
+        stage('Deploy') { 
+            steps {
+                // 
+            }
+        }
+    }
+}
